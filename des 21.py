@@ -1,0 +1,5 @@
+nome = str(input('qual é o seu nome?')).strip()
+print(f"seu nome em minusculo é {(nome.upper())}")
+print(f"seu nome em minusculo é {(nome.lower())}")
+espaços = (nome.count(" "))
+print(f'Seu nome tem ao todo {len(nome) - espaços} letras')
